@@ -1,1 +1,1 @@
-# PersonalFinanceMetalsSync
+# PersonalCapitalMetalSync
