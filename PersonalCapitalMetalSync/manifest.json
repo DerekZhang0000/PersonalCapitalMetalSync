@@ -5,9 +5,12 @@
   "manifest_version": 3,
   "permissions": ["activeTab", "storage", "scripting", "tabs"],
   "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts":  [
     {
-      "matches": ["*://*/"],
+      "matches": ["*://*.personalcapital.com/page/login/app/*"],
       "js": ["content-script.js"]
     }
   ]
