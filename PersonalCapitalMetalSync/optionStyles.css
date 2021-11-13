@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(77, 77, 77);
+}
+img{
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    width: 70px;
+    height: 70px;
+}
+h1{
+    size: 200px;
+    color: #07d3ff;
+    font-family: 'Courier New';
+    font-weight: 700;
+}
+span{
+    color: white;
+}
+form{
+    color: white;
+}
